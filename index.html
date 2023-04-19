@@ -15,9 +15,9 @@
   </div>
   <div class="main">
     <p id="add-item">
-      <label class="label-new-task" for="new-task">Add Item</label>
+      <label class="label label-new-task" for="new-task">Add Item</label>
       <div class="task-row-wrapper">
-        <input class="input input-text" id="new-task" class="task" type="text">
+        <input class="input input-text task" id="new-task" type="text">
         <button class="button" >Add</button>
       </div>
     </p>
@@ -25,19 +25,19 @@
     <ul class="list" id="incompleted-tasks">
       <li class="list-item">
         <input class="input input-checkbox" type="checkbox">
-        <label class="task">Pay Bills</label>
-        <input class="input input-text"  type="text" class="task">
+        <label class="task label">Pay Bills</label>
+        <input class="input input-text task"  type="text" >
         <button class="button edit">Edit</button>
         <button class="button delete">
           <img class="button-delete-img" src="./remove.svg"></button>
       </li>
       <li class="list-item edit-mode">
         <input class="input input-checkbox" type="checkbox">
-        <label class="task">Go Shopping</label>
-        <input  class="input input-text" type="text" value="Go Shopping" class="task">
+        <label class="task label">Go Shopping</label>
+        <input  class="input input-text task" type="text" value="Go Shopping" >
         <button class="button edit">Save</button>
         <button class="button delete">
-          <img src="./remove.svg">
+          <img src="./remove.svg" class="button-delete-img">
         </button>
       </li>
     </ul>
@@ -45,11 +45,11 @@
     <ul class="list" id="completed-tasks">
       <li class="list-item">
         <input  class="input input-checkbox" type="checkbox" checked>
-        <label class="task">See the Doctor</label>
-        <input class="input input-text" type="text" class="task">
+        <label class="task label">See the Doctor</label>
+        <input class="input input-text task" type="text" >
         <button class="button edit">Edit</button>
         <button class="button delete">
-          <img src="./remove.svg">
+          <img src="./remove.svg" class="button-delete-img">
         </button>
       </li>
     </ul>
