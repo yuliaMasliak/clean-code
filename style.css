@@ -162,7 +162,7 @@
   transform: rotateZ(0);
 }
 
-.done__list #completed-tasks .done__label {
+.done__list .done__label {
   text-decoration: line-through;
   color: #888;
 }

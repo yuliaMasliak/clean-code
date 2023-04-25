@@ -6,6 +6,11 @@ let doneTasks = ['See the Doctor'];
 window.onload = () => {
   drawTasks();
   ADD_TASK_BTN.addEventListener('click', addTask);
+  document.querySelectorAll('input[type="text"]')[2].classList.add('edit-mode');
+  document
+    .querySelectorAll('input[type="text"]')[2]
+    .setAttribute('value', document.querySelectorAll('label')[2].innerHTML);
+  document.querySelectorAll('label')[2].style.display = 'none';
 };
 
 function addTask() {
